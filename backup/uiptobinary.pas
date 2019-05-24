@@ -5,8 +5,8 @@ unit uIPtoBinary;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, windows,
-  Clipbrd, ExtCtrls;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, Windows,
+  Clipbrd, ExtCtrls, modo;
 
 type
 
@@ -60,29 +60,16 @@ end;
 procedure TForm1.CheckBox1Change(Sender: TObject);
 begin
   if CheckBox1.Checked = True then
+
+    //Modo Escuro
   begin
-    ListBox1.Color := rgb(40, 41, 35);
-    ListBox1.Font.Color := rgb(231, 219, 116);
-
-    EdtDec01.Color := rgb(40, 41, 35);
-    EdtDec02.Color := rgb(40, 41, 35);
-    EdtDec03.Color := rgb(40, 41, 35);
-    EdtDec04.Color := rgb(40, 41, 35);
-
-    EdtDec01.Font.Color := rgb(0, 201, 228);
-    EdtDec02.Font.Color := rgb(0, 201, 228);
-    EdtDec03.Font.Color := rgb(0, 201, 228);
-    EdtDec04.Font.Color := rgb(0, 201, 228);
-
-    color := rgb(0, 0, 0);
-
-    Label1.Font.Color := rgb(255, 255, 255);
-    Label2.Font.Color := rgb(255, 255, 255);
-    Label3.Font.Color := rgb(255, 255, 255);
-
+    Modo.Modo.Escuro;
   end
   else
+
+    //Modo Padrão
   begin
+    Color := rgb(240, 240, 240);
     ListBox1.Color := rgb(255, 255, 255);
     ListBox1.Font.Color := rgb(128, 0, 0);
 
@@ -96,8 +83,6 @@ begin
     EdtDec03.Font.Color := rgb(0, 0, 0);
     EdtDec04.Font.Color := rgb(0, 0, 0);
 
-    color := rgb(240, 240, 240);
-
     Label1.Font.Color := rgb(0, 0, 0);
     Label2.Font.Color := rgb(0, 0, 0);
     Label3.Font.Color := rgb(0, 0, 0);
@@ -106,7 +91,7 @@ end;
 
 procedure TForm1.CheckBox1Click(Sender: TObject);
 begin
-  EdtDec01.SetFocus:= true;
+  EdtDec01.SetFocus;
 end;
 
 function TForm1.DecToBin(Valor: integer): string;
@@ -166,38 +151,39 @@ end;
 
 procedure TForm1.Label1Click(Sender: TObject);
 begin
-  if CheckBox1.Checked = false then
+  if CheckBox1.Checked = False then
   begin
-    CheckBox1.Checked:= true;
+    CheckBox1.Checked := True;
   end
   else
-    CheckBox1.Checked:= false;
+    CheckBox1.Checked := False;
 end;
 
 procedure TForm1.ListBox1Click(Sender: TObject);
 begin
-  Label3.caption:= 'TCP/IP: '+ Auxiliar.Items.Strings[ListBox1.ItemIndex];
+  Label3.Caption := 'TCP/IP: ' + Auxiliar.Items.Strings[ListBox1.ItemIndex];
 end;
 
 procedure TForm1.ListBox1DblClick(Sender: TObject);
 begin
-  Clipboard.asText := ListBox1.items.strings[ListBox1.itemIndex];
+  Clipboard.asText := ListBox1.items.strings[ListBox1.ItemIndex];
 end;
 
 procedure TForm1.Button1Click(Sender: TObject);
 var
- dec, bin: string;
+  Dec, bin: string;
 begin
-  if (StrToInt(EdtDec01.Text) <= 255) and (StrToInt(EdtDec02.Text) <= 255)
-  and (StrToInt(EdtDec03.Text) <= 255) and (StrToInt(EdtDec04.Text) <= 255) then
+  if (StrToInt(EdtDec01.Text) <= 255) and (StrToInt(EdtDec02.Text) <= 255) and
+    (StrToInt(EdtDec03.Text) <= 255) and (StrToInt(EdtDec04.Text) <= 255) then
   begin
-  dec:= EdtDec01.Text + '.' +EdtDec02.Text +'.'+ EdtDec03.Text +'.'+ EdtDec04.Text;
+    Dec := EdtDec01.Text + '.' + EdtDec02.Text + '.' + EdtDec03.Text + '.' + EdtDec04.Text;
 
-  Auxiliar.Items.Add(dec);
+    Auxiliar.Items.Add(Dec);
 
-  bin:= DecToBin(StrToInt(EdtDec01.Text)) + ' ' + DecToBin(StrToInt(EdtDec02.Text))
-        +' ' + DecToBin(StrToInt(EdtDec03.Text)) + ' ' + DecToBin(StrToInt(EdtDec04.Text));
-  ListBox1.Items.Add(bin);
+    bin := DecToBin(StrToInt(EdtDec01.Text)) + ' ' +
+      DecToBin(StrToInt(EdtDec02.Text)) + ' ' + DecToBin(StrToInt(EdtDec03.Text)) +
+      ' ' + DecToBin(StrToInt(EdtDec04.Text));
+    ListBox1.Items.Add(bin);
   end
   else
   begin
@@ -207,4 +193,3 @@ begin
 end;
 
 end.
-
