@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, Windows,
-  Clipbrd, ExtCtrls, modo;
+  Clipbrd, ExtCtrls;
 
 type
 
@@ -63,7 +63,23 @@ begin
 
     //Modo Escuro
   begin
-    Modo.Modo.Escuro;
+    Color := rgb(0, 0, 0);
+    ListBox1.Color := rgb(40, 41, 35);
+    ListBox1.Font.Color := rgb(231, 219, 116);
+
+    EdtDec01.Color := rgb(40, 41, 35);
+    EdtDec02.Color := rgb(40, 41, 35);
+    EdtDec03.Color := rgb(40, 41, 35);
+    EdtDec04.Color := rgb(40, 41, 35);
+
+    EdtDec01.Font.Color := rgb(0, 201, 228);
+    EdtDec02.Font.Color := rgb(0, 201, 228);
+    EdtDec03.Font.Color := rgb(0, 201, 228);
+    EdtDec04.Font.Color := rgb(0, 201, 228);
+
+    Label1.Font.Color := rgb(255, 255, 255);
+    Label2.Font.Color := rgb(255, 255, 255);
+    Label3.Font.Color := rgb(255, 255, 255);
   end
   else
 

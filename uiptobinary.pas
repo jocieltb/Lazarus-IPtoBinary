@@ -192,7 +192,8 @@ begin
   if (StrToInt(EdtDec01.Text) <= 255) and (StrToInt(EdtDec02.Text) <= 255) and
     (StrToInt(EdtDec03.Text) <= 255) and (StrToInt(EdtDec04.Text) <= 255) then
   begin
-    Dec := EdtDec01.Text + '.' + EdtDec02.Text + '.' + EdtDec03.Text + '.' + EdtDec04.Text;
+    Dec := EdtDec01.Text + '.' + EdtDec02.Text + '.' + EdtDec03.Text +
+      '.' + EdtDec04.Text;
 
     Auxiliar.Items.Add(Dec);
 

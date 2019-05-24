@@ -8,11 +8,11 @@
       <Unit0>
         <Filename Value="IPtoBinary.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="21" Y="10"/>
         <UsageCount Value="22"/>
+        <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="uiptobinary.pas"/>
@@ -21,7 +21,6 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uIPtoBinary"/>
-        <IsVisibleTab Value="True"/>
         <CursorPos X="31" Y="13"/>
         <UsageCount Value="22"/>
         <Loaded Value="True"/>
@@ -51,7 +50,7 @@
         <UsageCount Value="10"/>
       </Unit4>
     </Units>
-    <JumpHistory Count="26" HistoryIndex="25">
+    <JumpHistory Count="27" HistoryIndex="26">
       <Position1>
         <Filename Value="uiptobinary.pas"/>
         <Caret Line="90" Column="13" TopLine="76"/>
@@ -156,6 +155,10 @@
         <Filename Value="uiptobinary.pas"/>
         <Caret Line="66" Column="21" TopLine="58"/>
       </Position26>
+      <Position27>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="13" Column="31"/>
+      </Position27>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
