@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="IPtoBinary.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="uiptobinary.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uIPtoBinary"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="95"/>
+        <CursorPos X="21" Y="109"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="D:\lazarus\lcl\include\winapi.inc"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="315"/>
+        <CursorPos Y="329"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="25" HistoryIndex="24">
+      <Position1>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="82" Column="31" TopLine="61"/>
+      </Position1>
+      <Position2>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="79" Column="44" TopLine="68"/>
+      </Position2>
+      <Position3>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="90" Column="13" TopLine="76"/>
+      </Position3>
+      <Position4>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="107" Column="34" TopLine="107"/>
+      </Position4>
+      <Position5>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="94" Column="7" TopLine="46"/>
+      </Position5>
+      <Position6>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="176" Column="29" TopLine="159"/>
+      </Position6>
+      <Position7>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="177" Column="29" TopLine="160"/>
+      </Position7>
+      <Position8>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="178" Column="29" TopLine="161"/>
+      </Position8>
+      <Position9>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="179" Column="29" TopLine="162"/>
+      </Position9>
+      <Position10>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="178" Column="29" TopLine="161"/>
+      </Position10>
+      <Position11>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="184" Column="56" TopLine="167"/>
+      </Position11>
+      <Position12>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="27" Column="24" TopLine="14"/>
+      </Position12>
+      <Position13>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="183" Column="22" TopLine="19"/>
+      </Position13>
+      <Position14>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="192" Column="9" TopLine="171"/>
+      </Position14>
+      <Position15>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="175" Column="56" TopLine="171"/>
+      </Position15>
+      <Position16>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="192" Column="26" TopLine="158"/>
+      </Position16>
+      <Position17>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="175" Column="60" TopLine="158"/>
+      </Position17>
+      <Position18>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="175" Column="30" TopLine="173"/>
+      </Position18>
+      <Position19>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="174" Column="30" TopLine="172"/>
+      </Position19>
+      <Position20>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="103" Column="3" TopLine="103"/>
+      </Position20>
+      <Position21>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="102" Column="3" TopLine="102"/>
+      </Position21>
+      <Position22>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="104" Column="3" TopLine="104"/>
+      </Position22>
+      <Position23>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="103" Column="3" TopLine="103"/>
+      </Position23>
+      <Position24>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="192" Column="43" TopLine="180"/>
+      </Position24>
+      <Position25>
+        <Filename Value="uiptobinary.pas"/>
+        <Caret Line="109" Column="20" TopLine="95"/>
+      </Position25>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
